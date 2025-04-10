@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>VR Arena</h1>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="login.html">Логин</a></li>
+                <li><a href="regist.html">Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Страница бронирования</h1>
+ <form id="bookingForm">
+ <label for="date">Дата:</label>
+ <input type="date" id="date" name="date"><br><br>
+ <label for="time">Время:</label>
+ <select id="time" name="time">
+ <option value="10:00">10:00</option>
+ <option value="12:00">12:00</option>
+ <option value="14:00">14:00</option>
+ <option value="16:00">16:00</option>
+ <option value="18:00">18:00</option>
+ </select><br><br>
+ <label for="hall">Зал:</label>
+ <select id="hall" name="hall">
+ <option value="Зал 1">Зал 1</option>
+ <option value="Зал 2">Зал 2</option>
+ <option value="Зал 3">Зал 3</option>
+ </select><br><br>
+ <label for="price">Стоимость:</label>
+ <input type="number" id="price" name="price" readonly><br><br>
+ <button type="submit">Подтвердить бронирование</button>
+    <footer>
+        <p>© 2025 VR Arena</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

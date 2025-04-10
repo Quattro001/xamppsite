@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>VR Arena</h1>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="login.html">Логин</a></li>
+                <li><a href="regist.html">Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="auth-page">
+            <div class="auth-container">
+            <h2>Регистрация</h2>
+            <form id="registerForm">
+                <input type="text" id="registerUsername" placeholder="Логин" required>
+                <input type="password" id="registerPassword" placeholder="Пароль" required>
+                <input type="email" id="registerEmail" placeholder="Email" required>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+            <p>Уже есть аккаунт? <a href="login.html">Войдите</a></p>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>© 2025 VR Arena</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
